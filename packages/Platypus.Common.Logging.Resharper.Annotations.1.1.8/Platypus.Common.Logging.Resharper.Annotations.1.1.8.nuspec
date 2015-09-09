@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Platypus.Common.Logging.Resharper.Annotations</id>
+    <version>1.1.8</version>
+    <authors>Collaborating Platypus</authors>
+    <owners>Collaborating Platypus</owners>
+    <licenseUrl>https://github.com/CollaboratingPlatypus/Platypus-Common.Logging-Resharper-Annotations/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/CollaboratingPlatypus/Platypus-Common.Logging-Resharper-Annotations</projectUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/10597031?s=200</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Resharper annotations for the Common.Logging library.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>Common Logging Resharper Annotiations</tags>
+  </metadata>
+</package>
