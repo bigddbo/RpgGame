@@ -66,6 +66,7 @@
     <EmbeddedResource Include="SuperAdventure.resx">
       <DependentUpon>SuperAdventure.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,6 +85,9 @@
       <Project>{d2f47ed2-8136-4c09-bf8c-d94b54daac2c}</Project>
       <Name>Engine</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Common.Logging.Core.ExternalAnnotations.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
