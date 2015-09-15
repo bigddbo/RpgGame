@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Markup;
+using System.Xml.Schema;
 
 namespace Engine
 {
@@ -108,9 +110,32 @@ namespace Engine
             return 5; // The maximum level is 5, in this sample
         }
 
+        public void CalculateAverage()
+        {
+            // Create and populate the list of numbers
+            List<double> vaules = new List<double>();
 
-     
-   
+            vaules.Add(1);
+            vaules.Add(5);
+            vaules.Add(21);
+
+            // Calculating the average, using a foreach
+            double total = 0;
+            double counter = 0;
+
+            foreach (double value in vaules)
+            {
+                total = (total + value);
+                counter = (counter + 1);
+            }
+
+            double average = (total/counter);
+
+            // Calculating the average, using LINQ
+            double linqAverage = vaules.Average();
+
+        }
+
 
     }
 }
